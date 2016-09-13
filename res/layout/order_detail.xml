@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_scoll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/order_no_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            android:padding="10dp"
+            android:text="订单编号:115PSD-1511-027525"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/thelve_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/fg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【客户信息】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <TextView
+                android:id="@+id/order_customer_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="客户:绍兴华清化纤纺织有限公司"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/order_address_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="地址:绍兴钱清县钱清镇外商投资区"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/town_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="区域:绍兴县"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/saler_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:text="业务员:洪灿潮"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【订单信息】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/weight_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="重量: 10.160"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size" />
+
+                <TextView
+                    android:id="@+id/quantity_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:text="数量: 101600.00"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/order_state_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="状态: 待处理"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size" />
+
+                <TextView
+                    android:id="@+id/delivery_standards_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:text="配送标准: 正常"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/area_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="区域: 绍兴县"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size" />
+
+                <TextView
+                    android:id="@+id/area_price_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:text="区域价格:  180"
+                    android:textColor="@color/middle_gray"
+                    android:textSize="@dimen/sixteen_size"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/order_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="订单确认日期: 2015/11/28 9:12:54"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/request_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="要求到货日期: 2015/11/29 9:00:004"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【参考信息】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <TextView
+                android:id="@+id/order_remark_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【货物明细】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <com.resmanager.client.view.DefineListView
+                android:id="@+id/source_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+            </com.resmanager.client.view.DefineListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/driver_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【物流信息】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <TextView
+                android:id="@+id/delivery_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="运送日期: "
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/delivery_man_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="承  运  人: "
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/delivery_phone_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/take_phone_ico"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="联系电话: "
+                android:textColor="@color/phone_color"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/delivery_chepai_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="车牌号码: "
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uploading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【签收信息】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <TextView
+                android:id="@+id/qianshou_man_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="收  货  人: "
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/qianshou_phone_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/take_phone_ico"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="联系方式: "
+                android:textColor="@color/phone_color"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/qianshou_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="收货确认日期: "
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <TextView
+                android:id="@+id/delivery_info_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/go"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="点击查看货物详细内容"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="【回收信息】"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/fg" />
+
+            <TextView
+                android:id="@+id/reply_info_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/go"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="点击查看回收详细内容"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/login_btn_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="撤销"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sixteen_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

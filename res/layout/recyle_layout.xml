@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="回收客户:"
+                android:textColor="@color/light_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/customer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="太仓新意来纺织有限公司"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/location_str_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/map_position"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="当前位置信息"
+            android:padding="10dp"
+            android:textSize="@dimen/sixteen_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@drawable/fg" />
+
+        <TextView
+            android:id="@+id/add_source_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/add_source_ico"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/go"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="点击添加货物信息"
+            android:padding="10dp"
+            android:textSize="@dimen/sixteen_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@drawable/fg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:editable="false"
+                android:gravity="center_vertical"
+                android:hint="上传回收单照片"
+                android:textSize="@dimen/sixteen_size" />
+
+            <ImageView
+                android:id="@+id/recyle_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:minHeight="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_img" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resource_recyle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:drawableRight="@drawable/go"
+            android:padding="10dp"
+            android:text="点击添加需要回收的桶"
+            android:textColor="@color/middle_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@drawable/fg_color"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/recyle_remark_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="top|left"
+            android:hint="若有标签遗失的桶需要回收，请再此写入备注，注明规格，数量等"
+            android:minLines="3"
+            android:padding="10dp"
+            android:textColor="@color/middle_gray"
+            android:textColorHint="@color/light_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/recyle_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/update_btn"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="提交"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>

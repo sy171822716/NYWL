@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="选择订单后，点击下方按钮添加卸货信息"
+        android:textColor="@color/middle_gray"
+        android:textSize="@dimen/fourteen_size" />
+
+    <Button
+        android:id="@+id/add_source_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/update_btn"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="添加卸货信息"
+        android:textColor="@color/white" />
+
+    <com.resmanager.client.view.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <include layout="@layout/refresh_head" />
+
+        <com.resmanager.client.view.PullableListView
+            android:id="@+id/order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/app_bg"
+            android:divider="@drawable/transparent"
+            android:dividerHeight="10dp" >
+        </com.resmanager.client.view.PullableListView>
+
+        <include layout="@layout/load_more" />
+    </com.resmanager.client.view.PullToRefreshLayout>
+
+</LinearLayout>

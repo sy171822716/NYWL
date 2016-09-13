@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/is_look"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="top|right"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_dot"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ten_size"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="杭州萧山佳琪化纤厂"
+                android:textColor="@color/drak_gray" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/food_detail_fg"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/stock_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="850kg塑桶：8"
+            android:textColor="@color/light_gray" />
+    </LinearLayout>
+
+</LinearLayout>

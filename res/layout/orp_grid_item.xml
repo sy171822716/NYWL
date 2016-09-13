@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/orp_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/all_order_ico" />
+
+            <TextView
+                android:id="@+id/orp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="全部订单"
+                android:textColor="@color/drak_gray"
+                android:textSize="@dimen/login_page_btn_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/num_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginBottom="10dp"
+            android:visibility="visible"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/yuan"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/thelve_size" />
+    </FrameLayout>
+
+</FrameLayout>

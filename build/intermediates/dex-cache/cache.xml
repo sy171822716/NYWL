@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\android_volley_manager_1.04.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f1230c70d2720d2d7aef68c93e26300e2df3691d">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\android_volley_manager_1.04_2177e3a2ac68c06eeb4f1b1a5135257aad31dbea\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\jg_filter_sdk_1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\jg_filter_sdk_1.1_efbbfe841855fef0707f23b9f5c67b025977d61a\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\picasso-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.4.0_6fa29caee20ee893e38d6205c5baa0265e21a1c1\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\Xg_sdk_v2.42_20160111_1539.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4735ec4caebc2db6cc5069a21f3c00e9e043f5f6">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\Xg_sdk_v2.42_20160111_1539_fbbb362273cc9ad6a46e5a8c92fc3b9b62a2a946\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\AMap_Location_v2.1.0_20151202.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="42e29bc09e0685e4712d74b7c8ea45451fe6ed24">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_v2.1.0_20151202_cb246016f22665bf892c937985172afbece97367\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8bd565ef0ff4108c55e6f7ab8c1ace2f09f407e6">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_054b81e5765d0b45a957e7188485f428a23fb495\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9f03972a774a6305d5049c0e0c64806af0016c94">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-2.4-jar-with-dependencies_19c27067bd5204fadfad668222cfce8b2f9c7d70\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\zbar.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\zbar_6fe8c8f02b1dfbc32ee2fda802e567778427d359\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9ec3e0b4fee98493520e9861084b6cbdee7b1289">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6c18825ad1da6891ad66907a7ae60e0438ae73a0\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\wup-1.0.0.E-SNAPSHOT.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d5a0917f8418b3726f89ae120182dfb6b884740d">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\wup-1.0.0.E-SNAPSHOT_b449e83d77585ecaac617029ad57c6630eac7f4f\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\core.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\core_c233718d978ed5cb6feed7b77271be4e086aa82a\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\AMap_Android_3DMapSDK_V3.1.1_20151216.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2dfbf74b904ac868a4a282e3570314c1a38df9b">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Android_3DMapSDK_V3.1.1_20151216_778db2409ab9fd50fc74814adac818dde71fdb1b\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.1_935f308496268ca6568961fb59d607419a39d249\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_428f6f61278aa1da92246451f7edefe47cf5a1cb\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\bugly_1.2.8_release.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d29fe65f5ccf6cd835bd0eb6a011bacf1594a818">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\bugly_1.2.8_release_8a27a486ce22a3d0853934df2ab0bbef4b45d2ca\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\fastjson-1.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.2.2_b8b0ca7c7a651c19cc4dbf9945b84991e1d0d5bf\classes.dex" />
+    </item>
+    <item
+        jar="E:\WORK_SPACE_TEMP\ResManagerClient\libs\AMap_Services_V2.7.0_20151125.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7eac53aff3958c7447c434fe376c8c978a2f9c5c">
+        <dex dex="E:\WORK_SPACE_TEMP\ResManagerClient\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Services_V2.7.0_20151125_460d71a0a5df9dde7504400c38a189ac879eb327\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/trade_monery_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:text="￥1050"
+            android:textColor="@color/red"
+            android:textSize="@dimen/thirty_five_size"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/receiver_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="结  算  人：admin"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size" />
+
+        <TextView
+            android:id="@+id/receiver_date_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="结算日期：2015-12-19 10：04"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/fg_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注："
+            android:textColor="@color/middle_gray"
+            android:textSize="@dimen/sixteen_size" />
+
+        <TextView
+            android:id="@+id/remark_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无"
+            android:textColor="@color/middle_gray"
+            android:textSize="@dimen/sixteen_size" />
+    </LinearLayout>
+
+</LinearLayout>

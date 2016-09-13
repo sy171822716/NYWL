@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/search_input_edit"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/guige_bg_p"
+                android:capitalize="characters"
+                android:hint="请输入标签"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="5dp"
+                android:paddingRight="3dp"
+                android:singleLine="true"
+                android:textColor="@color/drak_gray"
+                android:textColorHint="@color/edit_hint_color"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sixteen_size" />
+
+            <ImageView
+                android:id="@+id/search_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/search_bar_icon_normal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="起始时间:"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:drawableRight="@drawable/go"
+                android:gravity="center_vertical"
+                android:hint="请选择要查询的起始时间"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="结束时间:"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:drawableRight="@drawable/go"
+                android:gravity="center_vertical"
+                android:hint="请选择要查询的结束时间"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radiogroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_time_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="本月"
+                    android:textColor="@drawable/check_color"
+                    android:textSize="@dimen/thelve_size" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_time_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="上月"
+                    android:textColor="@drawable/check_color"
+                    android:textSize="@dimen/thelve_size" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_time_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="本周"
+                    android:textColor="@drawable/check_color"
+                    android:textSize="@dimen/thelve_size" />
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_time_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="上周"
+                    android:textColor="@drawable/check_color"
+                    android:textSize="@dimen/thelve_size" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroup4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_time_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="今年"
+                    android:textColor="@drawable/check_color"
+                    android:textSize="@dimen/thelve_size" />
+
+                <RadioButton
+                    android:id="@+id/radio44"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_time_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="全部"
+                    android:textColor="@drawable/check_color"
+                    android:textSize="@dimen/thelve_size" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="注意:当查询时间间隔快捷选择和用户选择起始日期并存时，以用户选择的起始日期为准，快捷选择则无效"
+            android:textColor="@color/orange_color"
+            android:textSize="@dimen/fourteen_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="客    户:"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <EditText
+                android:id="@+id/customer_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:hint="请输入要搜索的客户名称"
+                android:imeOptions="actionSearch"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/middle_gray"
+                android:textColorHint="@color/light_gray"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/saler_layout"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="业务员:"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <EditText
+                android:id="@+id/saleman_edit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:hint="请输入业务员名称"
+                android:imeOptions="actionSearch"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/middle_gray"
+                android:textColorHint="@color/light_gray"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="驾驶员:"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/diver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/go"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="仓    库:"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+
+            <TextView
+                android:id="@+id/canku_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/go"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/sixteen_size" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/update_btn"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="查询"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/login_page_btn_size" />
+    </LinearLayout>
+
+</ScrollView>

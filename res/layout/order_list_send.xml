@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/reset_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/no_btn"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="重新过滤"
+            android:textColor="@color/middle_gray"
+            android:textSize="@dimen/sixteen_size" />
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/yes_btn"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="选择驾驶员>>>"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sixteen_size" />
+    </LinearLayout>
+
+    <com.resmanager.client.view.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <include layout="@layout/refresh_head" />
+
+        <com.resmanager.client.view.PullableListView
+            android:id="@+id/order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@drawable/app_bg"
+            android:dividerHeight="10dp" >
+        </com.resmanager.client.view.PullableListView>
+
+        <include layout="@layout/load_more" />
+    </com.resmanager.client.view.PullToRefreshLayout>
+
+</LinearLayout>

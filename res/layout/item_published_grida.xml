@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/item_grida_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/scan_code_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/drak_gray"
+        android:textSize="@dimen/sixteen_size"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/scan_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/update_btn"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="点击扫描二维码"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/no_scan_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/update_cancel_bg"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="二维码标签遗失"
+        android:textColor="@color/middle_gray"
+        android:visibility="gone" />
+
+</LinearLayout>

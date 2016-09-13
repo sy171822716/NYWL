@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/warsehouse_name_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:text="常熟市宏博化纤有限公司"
+        android:textColor="@color/drak_gray"
+        android:textSize="@dimen/sixteen_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/warsehouse_address_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:text="碧溪新区东张白莲村"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/fourteen_size" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/no_btn"
+            android:padding="10dp"
+            android:text="问题订单"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size" />
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/yes_btn"
+            android:padding="10dp"
+            android:text="有效订单"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sixteen_size" />
+    </LinearLayout>
+
+    <com.resmanager.client.view.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <include layout="@layout/refresh_head" />
+
+        <com.resmanager.client.view.PullableListView
+            android:id="@+id/order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@drawable/app_bg"
+            android:dividerHeight="10dp" >
+        </com.resmanager.client.view.PullableListView>
+
+        <include layout="@layout/load_more" />
+    </com.resmanager.client.view.PullToRefreshLayout>
+
+</LinearLayout>

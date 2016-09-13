@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/search_input_edit"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/guige_bg_p"
+            android:drawableLeft="@drawable/search_bar_icon_normal"
+            android:drawablePadding="5dp"
+            android:hint="请输入货物标签"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:singleLine="true"
+            android:textColor="@color/drak_gray"
+            android:textColorHint="@color/edit_hint_color"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/sixteen_size" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/label_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:divider="@drawable/fg_color"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none" >
+    </ListView>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/update_btn"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</LinearLayout>

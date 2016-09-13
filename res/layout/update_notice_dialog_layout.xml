@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/update_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/yun"
+        android:textColor="@color/title_bar_color"
+        android:textSize="@dimen/login_page_btn_size" />
+
+    <TextView
+        android:id="@+id/this_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="V1.0.0"
+        android:textColor="@color/drak_gray"
+        android:textSize="@dimen/twentytwo_size" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/dialog_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:visibility="gone" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/update_cancel_bg"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:visibility="gone"
+            android:text="取消"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/login_page_btn_size" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/update_btn"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="系统有更新"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/login_page_btn_size" />
+    </LinearLayout>
+
+</LinearLayout>

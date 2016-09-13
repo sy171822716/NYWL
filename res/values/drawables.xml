@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明 -->
+    <item name="transparent" type="drawable">#00000000</item>
+    <!-- 半透明 -->
+    <item name="half_transparent" type="drawable">#7f000000</item>
+    <item name="fg_color" type="drawable">#E9E7E7</item>
+    <item name="app_bg" type="drawable">#EFEEEC</item>
+    <item name="bbs_left_menu_light_gray" type="drawable">#e7e7e7</item>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_info_bubble"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="状态:空闲"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/car_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="[苏B88888]"
+        android:textColor="@color/drak_gray"
+        android:textSize="@dimen/sixteen_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="电话:137712383901"
+        android:textColor="@color/drak_gray"
+        android:textSize="@dimen/sixteen_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:singleLine="true"
+        android:textColor="@color/drak_gray"
+        android:textSize="@dimen/sixteen_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/package_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="货物类型:油罐"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/order_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单数：1"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/sixteen_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

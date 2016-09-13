@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">宁盈物流</string>
+    <string name="msg_default_status">将二维码放入框内，即可自动扫描</string>
+    <string name="all_order_str">订单查询</string>
+    <string name="authorized_tag_str">标签授权</string>
+    <string name="search_tag_str">标签查询</string>
+    <string name="balance_str">我的结算</string>
+    <string name="delivery_str">送货</string>
+    <string name="unloading_str">卸货</string>
+    <string name="recyle_str">回收</string>
+    <string name="my_order_str">我的订单</string>
+    <string name="message_str">我的消息</string>
+    <string name="t_stock_str">库存查看</string>
+    <string name="location_str">位置查看</string>
+    <string name="daixuehuo_str">代卸货</string>
+    <!-- 上拉刷新，下拉加载更多 start -->
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <!-- 上拉刷新，下拉加载更多 end -->
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+</resources>

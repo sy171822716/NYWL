@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="drak_gray">#323232</color>
+    <color name="mainpage_gray">#303030</color>
+    <color name="middle_gray">#777777</color>
+    <color name="light_gray">#999999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="red">#FF0000</color>
+    <color name="title_bar_color">#12B5FF</color>
+    <color name="title_bg_color">#daf6fd</color>
+    <color name="login_page_forget_color">#3e9bb4</color>
+    <color name="edit_hint_color">#cccccc</color>
+    <color name="orange_color">#ff4e24</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ff000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#cb000000</color>
+    <color name="viewfinder_frame">#ff4EEE94</color>
+    <!-- #ff0000ff -->
+    <color name="backgroud">#ffffffff</color>
+    <color name="title_tv_color">#ffffffff</color>
+
+    <!-- order color start -->
+    <color name="order_daichuli">#8B8B00</color>
+    <color name="order_daishenhe">#FFA500</color>
+    <color name="order_daijiesuan">#9ACD32</color>
+    <color name="order_yiwancheng">#DEDEDE</color>
+    <color name="order_daiyunsong">#CD7054</color>
+    <color name="order_yunsongzhong">#BCEE68</color>
+    <!-- order color end -->
+    <color name="green_color">#1DC489</color>
+
+    <!-- flag color start -->
+    <color name="flag_lock_color">#CD2626</color>
+    <color name="flag_unlock_color">#9ACD32</color>
+    <!-- flag color end -->
+    <color name="phone_color">#7D9EC0</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+
+</resources>
