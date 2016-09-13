@@ -70,7 +70,7 @@ public class DefineCameraActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-
+                System.out.println("tab");
             }
         });
         surfaceHolder = surfaceView.getHolder();
